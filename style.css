@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'bootstrap-icons';
+    src: url('../fonts/bootstrap-icons.woff'), url('../fonts/bootstrap-icons.woff2')
+}
+
+header img {
+    width: 188px;
+    margin-top: 30PX;
+}
+
+ul {
+    list-style-type: none;
+    color: black;
+}
+
+.card:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-back {
+    background-image: url('../images/homefeb2022_dt@2x.webp');
+    height: 640px;
+}
+
+input {
+    width: 790px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.images img {
+    width: 300px;
+    height: 300px;
+}
+
+.picture img {
+    width: 400px;
+    height: 300px;
+}
+
+.title {
+    display: flex;
+}
+
+.col-md-3 {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.centered {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.COLOR {
+    background-color: #FAF1ED;
+    margin-top: 10px;
+}
+
+.bobo {
+    background-color: #004F32;
+    margin-top: 50px;
+    height: auto;
+}
+
+.bobo img {
+    width: 200px;
+    margin-left: 90px;
+}
+
+.bobo button {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    width: auto;
+    border: none;
+    border-radius: 20PX;
+    margin-bottom: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.list h5 {
+    text-decoration: underline solid black;
+}
+
+.pan {
+    background-color: #FAF1ED;
+}
+
+.pan li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.icon {
+    text-align: end;
+    font-size: larger;
+    margin-right: 40PX;
+    margin-bottom: 40px;
+}
